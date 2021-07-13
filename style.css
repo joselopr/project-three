@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-area {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.video-area {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.logo {
+  margin: 30px;
+  width: 180px;
+}
+
+.banner-text {
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  top: 100px;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.banner-text h1 span {
+  color: orange;
+}
+
+.btn {
+  font-size: 25px;
+  color:  #fff;
+  margin: 5px;
+  padding: 10px 50px;
+  text-decoration: none;
+  border: 2px solid orange;
+  letter-spacing: 5px;
+}
+
+.btn-work {
+  background: orange;
+  color: #000;
+}
+
+.btn-contact:hover {
+  background: orange;
+  transition: .5s;
+  color: #000;
+}
+
+
+
+
+
+
+
